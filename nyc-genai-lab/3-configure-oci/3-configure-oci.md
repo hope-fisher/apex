@@ -32,6 +32,8 @@ If you are stuck or missed out on completing the previous labs, don't worry! Cli
 
 Note: If you already have an OCI key pair, you may skip this lab.
 
+> For **DatabaseWorld New York**, API Key details have been provided for you and can be found at [this APEX page](https://apex.oracle.com/pls/apex/r/gjarmiolowski/ny-database-world/home?session=111648535174332) under the **API KEY Info** tab. Use this information for Task 2.
+
 To Generate the API Keys using OCI Console:
 
 1. Login into your OCI Account.
