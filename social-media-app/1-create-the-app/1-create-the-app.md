@@ -1,18 +1,18 @@
 # Create an APEX Application
 
-
-
 ## Introduction
-In this lab, you learn to create a blank APEX application that will be used to build the Social Media App.
 
-In this lab, you build a simple application for the Social Media App. It is important to note that APEX is great for a variety of apps, from simple ones like the Social Media App we are building to large, sophisticated apps based on local database objects, REST enabled SQL objects, and even REST APIs.
+In this lab, you will learn to create a blank APEX application that will be used to build the Social Media App.
 
-While APEX developers spend the majority of their time in the **App Builder**, you should also investigate the following:
+In this lab, you will build a simple application for the Social Media App. It is important to note that APEX is well-suited for a wide range of applications, from simple ones like the Social Media App we are building to large, sophisticated applications based on local database objects, REST-enabled SQL objects, and even REST APIs.
+
+While APEX developers spend the majority of their time in the **App Builder**, you should also learn more about the following:
+
 - **SQL Workshop**: where you can create and maintain database objects.
 - **Team Development**: where you can track large APEX development projects.
 - **Gallery**: which contains numerous productivity and sample apps that can be installed within minutes.
 
-**Note:** The screenshots in this workshop are taken using Dark Mode in APEX 23.1.
+**Note:** The screenshots in this workshop are taken using Dark Mode in APEX 24.2.
 
 Estimated Time: 5 minutes
 
@@ -22,6 +22,7 @@ Watch the video below for a quick walk-through of the lab.
 ### Objectives
 
 In this lab, you will:
+
 - Create a new APEX application
 - Run your application
 
@@ -31,48 +32,48 @@ In this lab, you will:
 
 ## Task 1: Create the APEX app
 
-1. From your APEX workspace homepage, click **Create Application**.
+1. From your APEX workspace homepage, navigate to App Builder and click **Create**.
 
-2. Select **New Application**
+    !["Create Application"](images/create-app1.png " ")
 
-    !["Create App options"](images/create-app.png "")
+2. Select **Use Create App Wizard**
 
-3. You are now viewing the **Create An Application** Page, with View
-Blueprint tab selected. Update the following information:
+    !["Create App options"](images/create-app.png " ")
 
-    - Name: **APEX Social Media**
+3. You are now viewing the **Create An Application** Page, with View Blueprint tab selected.
 
-    - In the *Pages* section:
-        - Click **Edit** next to Home page
-        - Update the Home Page Name: **Timeline**
+    - Application Name: **APEX Social Media**
+
+    - Update the Home Page Name: **Timeline**. Click **Save Changes**
+
+    !["Edit Home Page name"](images/edit_homepage.png)
 
     - In *Features* section, check the **Install Progressive Web App** option.
 
-    !["Create App wizard"](images/app-details.png "")
+    Click **Create Application**.
 
-Click **Create Application**.
+    !["Create App wizard"](images/app-details.png =60%x*)
 
-4. We now have three pages in our APEX application. 
-    - The Global page (which we will not be using in this lab), 
-    - The Timeline page (which is the primary page we will be working on in this lab), 
+4. We now have three pages in our APEX application.
+    - The Global page (which we will not be using in this lab),
+    - The Timeline page (which is the primary page we will be working on in this lab),
     - The Login Page, which is the default page configured to use your workspace account credentials.
 
-    !["The pages in the app"](images/pages.png "")
-
+    !["The pages in the app"](images/pages.png " ")
 
 ## Task 2: Run the App and Sign-in
 
 1. Run the application.
 
-    ![Application home page](images/run-app.png "")
+    ![Application home page](images/run-app1.png "")
 
 2. To sign in to the application, use your workspace username and password.
 
-    ![Sign in page](images/sign-in.png "")
+    ![Sign in page](images/sign-in.png =45%x*)
 
 3. Now you see the very beginning of your app.
 
-    ![First outlook of the app](images/app-running.png "")
+    ![First outlook of the app](images/app-running.png =60%x*)
 
 ## Task 3: Observe the App
 
@@ -80,11 +81,11 @@ Click **Create Application**.
 
    ![Navigation menu of the app](images/app-nav.png "")
 
-Next, we will go back to the APEX Workspace and create the APEX social Media data model.
+Next, we will go back to the APEX Workspace and create the APEX Social Media data model.
 
 You may now **proceed to the next lab**
 
 ## Acknowledgements
- - **Author** - Jayson Hanes, Principal Product Manager; Apoorva Srinivas, Senior Product Manager;
- - **Contributor(s)** - Ankita Beri, Product Manager, May 2023
- - **Last Updated By/Date** - Apoorva Srinivas, Senior Product Manager, June 2023
+
+- **Author** - Jayson Hanes, Principal Product Manager; Apoorva Srinivas, Senior Product Manager
+- **Last Updated By/Date** - Sahaana Manavalan,Senior Product Manager, March 2025
